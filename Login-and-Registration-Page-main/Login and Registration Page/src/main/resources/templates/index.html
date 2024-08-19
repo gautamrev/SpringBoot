@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Welcome to our System</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .links button {
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .links button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container text-center">
+    <h1>Welcome to our system</h1>
+    <div class="links">
+        <button><a href="/register" style="color: white; text-decoration: none;">Register</a></button>
+        <button><a href="/login" style="color: white; text-decoration: none;">Login</a></button>
+        <button><a href="/users" style="color: white; text-decoration: none;">List of Users</a></button>
+        
+    </div>
+</div>
+</body>
+</html>
